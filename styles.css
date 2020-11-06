@@ -1,0 +1,18 @@
+label {
+    color:blue;
+    }
+    input [type="text"]{
+        border-color:green;
+    }
+    input[type="date"]{
+        background-color:blue;
+    }
+    [id-e]{
+        color:red;
+    }
+    .buttons{
+        background-color:green;
+    }
+    body{
+        background-color:salmon;
+    }

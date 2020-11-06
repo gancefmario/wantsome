@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1>Pizza Order</h1>
+        <form action="/action_page.php">
+            <label for="name">Nume:</label>
+            <input type="text" name="Nume" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" required><br><br>
+            <label for="name">Topping:</label>
+            <input type="radio" name="Nume" id="Supreme" value="Supreme">
+            <label for="Supreme">Supreme</label>
+            <input type="radio" name="Nume" id="Vegetarian" value="Vegetarian">
+            <label for="Vegetarian">Vegetarian</label>
+            <input type="radio" name="Nume" id="Hawaian" value="Hawaian">
+            <label for="name">Hawaian</label><br>
+            <label for="Name">Sauce:</label>
+            <select id="Sauce" name="Sauce">
+                <option value="Tomato">Tomato</option>
+                <option value="Mustar">Mustar</option>
+                <option value="Maioneza">Maioneza</option>
+            </select><br>
+            Extras:
+             <input type="checkbox" id="Cheese" name="Cheese" value="Cheese">
+            <label for="Cheese">Cheese</label> 
+            <input type="checkbox" id="Onions" name="Onions" value="Onions">
+            <label for="Onions">Onions</label>
+            <input type="checkbox" id="Olives" name="Olives" value="Olives">
+            <label for="Olives">Olives</label><br><br>
+            <p1>Delivery instructions:</p1><br>
+            <textarea id="Delivery" required name="Delivery" rows="4" cols="50"></textarea><br>
+            <label for="phone">Enter a phone number:</label>
+            <input="tel" id="phone" required name="phone" placeholder="123-45-678"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            <input type="number" required name="numbers">
+            <small>Format: 123-45-678</small><br>
+            <input type="submit" value="Send Order">
+            <input type="reset" value="Reset">
+
+            
+        </form>
+</body>
+</html>
